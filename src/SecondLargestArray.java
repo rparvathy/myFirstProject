@@ -25,6 +25,8 @@ public class SecondLargestArray {
         }
 
         System.out.println("Second largest element is: " + secondLargest);
+
+
         sc.close();
     }
 }
