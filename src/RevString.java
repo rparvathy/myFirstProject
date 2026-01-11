@@ -1,3 +1,4 @@
+//to reverse a string
 import java.util.Scanner;
 
 public class RevString {
@@ -6,9 +7,9 @@ public class RevString {
         System.out.print("Enter the String : ");
         String name = sc.nextLine();
         String rev = "";
-        String[] arr = name.split("");
-        for (int i = arr.length -1;  i >=0 ; i--) {
-            rev = rev + arr[i];
+
+        for (int i = name.length() -1;  i >=0 ; i--) {
+            rev = rev + name.charAt(i);
         }
         //System.out.println("reverse : " +rev);
         if(rev.equals(name)){
