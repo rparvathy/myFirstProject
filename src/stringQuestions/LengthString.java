@@ -1,3 +1,4 @@
+//length of the string
 package stringQuestions;
 
 import java.util.Scanner;

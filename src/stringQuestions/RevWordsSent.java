@@ -1,6 +1,6 @@
+//Reverse words in a sentence
 package stringQuestions;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class RevWordsSent {
