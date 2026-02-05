@@ -7,6 +7,9 @@ public class Address {
     private String country;
     private int pinCode;
 
+    public Address() {
+    }
+
     public Address(String houseName, String city, String state, String country, int pinCode) {
         this.houseName = houseName;
         this.city = city;
@@ -57,12 +60,10 @@ public class Address {
 
     @Override
     public String toString() {
-        return "Address{" +
-                "houseName='" + houseName + '\'' +
-                ", city='" + city + '\'' +
-                ", state='" + state + '\'' +
-                ", country='" + country + '\'' +
-                ", pinCode=" + pinCode +
-                '}';
+        return houseName + ',' +
+                city + ',' +
+                state + ',' +
+                country + ',' +
+                +pinCode;
     }
 }
